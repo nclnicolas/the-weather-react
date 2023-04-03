@@ -1,0 +1,17 @@
+.largerWidth{
+    position: relative;
+    right: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.largerWidth a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.largerWidth a:hover, .active{
+    background-color: var(--primary);
+}

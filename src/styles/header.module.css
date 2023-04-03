@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+    background-image: linear-gradient(
+    to right,
+    rgb(0 0 0 / 0.8),
+    rgb(0 0 0 / 0.7)),
+    url(src/img/header.jpg);
+    padding: 4rem 0;
+    background-size: cover;
+    background-position:center center;
+}
+.container h1{
+  margin-left: 1rem;
+}
+.navegacion{
+  position: absolute;
+  right: 10px;
+  top: 85px;
+  width: 5rem;
+}
+@media(min-width: 768px){
+    .navegacion{
+      right: 150px;
+      
+    }
+  }

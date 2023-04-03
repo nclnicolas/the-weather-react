@@ -1,0 +1,20 @@
+.title{
+    text-align: center;
+    font-size: 2rem;
+}
+.contain{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+}
+@media(min-width: 768px){
+    .contain{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+.image img{
+    width: 100%;
+    background-size: cover;
+    padding: 4rem 0;
+}

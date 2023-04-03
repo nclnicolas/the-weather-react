@@ -1,0 +1,40 @@
+.container{
+    background-image: linear-gradient(
+    to right,
+    rgb(0 0 0 / 0.8),
+    rgb(0 0 0 / 0.7)),
+    url(src/img/footer.webp);
+    background-size: cover;
+    background-position:center center;
+    padding: 1rem;
+}
+.contain{
+    display: flex;
+}
+.contain p{
+    font-size: 1rem;
+}
+.contain a{
+    margin-left: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+    padding: .5rem;
+    width: 25%;
+}
+@media(min-width: 768px){
+    .container{
+        position: relative;
+        margin-top: 11rem;
+    }
+    .contain a{
+        width: 10%;
+        height: 100%;
+        align-items: center;
+        margin-left: 10rem;
+    }
+    .contain a:hover{
+        background-color: var(--primary);
+    }
+  }
